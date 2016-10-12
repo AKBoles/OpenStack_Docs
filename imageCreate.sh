@@ -1,8 +1,11 @@
 #!/bin/bash
 
+# Grab image name from command line
+IMAGE_NAME=$1
+
 # Request image name
-echo "Please enter the name of the Image: "
-read IMAGE_NAME
+#echo "Please enter the name of the Image: "
+#read IMAGE_NAME
 export OS_IMAGE_NAME=$IMAGE_NAME
 
 # Install dependencies
